@@ -13,7 +13,7 @@ function Cart() {
 
     useEffect(() => {
         setModifiedPrice(totalPrice.toFixed(2));// up to 2 decimal
-    },[modifiedPrice]); // whenever totalprice changes this will be changed
+    },[totalPrice]); // whenever totalprice changes this will be changed
 
     function showCartDetails() {
         return (
