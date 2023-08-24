@@ -15,7 +15,8 @@ body {
 }
 
 .home-page-bg {
-    background-color: #C2C2C2;
+    /* background-color: #C2C2C2; */
+    background-color: pink;
     margin-top: -1.2rem;
     /* margin-bottom: -1.2rem; */
 }
