@@ -1,31 +1,41 @@
-# React & Tailwind CSS Starter Pack
+# Shopping Cart Using Redux
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+A Shopping cart application built using Redux, designed to showcase the implementation of a state management system in a web application.
 
-## Usage
+## Live Demo
+[Go to the Website](https://shopping-cart-by-manash.vercel.app/)
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Features
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/Man0sh-r0y/React-Tailwind-CSS-Starter-Pack.git
+- Add products to the cart.
+- Remove products from the cart.
+- Calculate and display the total price of items in the cart.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
+    ```bash
+       git clone https://github.com/Man0sh-r0y/Shopping-Cart-using-Redux.git
+     ```
+     
+1. Navigate to the project directory:
+    ```bash
+      cd Shopping-Cart-using-Redux
     ```
-
-1. Install the required packages.
-    ```sh
-    cd React-Tailwind-CSS-Starter-Pack
-    npm install
-    ```
-
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
-
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+    
+1. Install the required dependencies using npm:
+     ```bash
+       npm install
+       npm install @reduxjs/toolkit
+       npm install react-redux
+       npm install react-router-dom
+       npm install react-hot-toast
+       npm install react-icons
+     ```
+     
+1. Start the development server:
+     ```bash
+       npm start
+     ```
