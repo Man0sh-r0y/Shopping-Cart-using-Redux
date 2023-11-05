@@ -16,13 +16,15 @@ body {
 
 .home-page-bg {
     /* background-color: #C2C2C2; */
-    background-color: pink;
+    /* background-color: pink; */
+    background-color: rgb(209, 218, 245);
     margin-top: -1.2rem;
     /* margin-bottom: -1.2rem; */
 }
 
 .nav-color {
-    background-color: #0d76e7;
+    /* background-color: #0d76e7; */
+    background-color: rgb(2, 7, 61);
 }
 
 .shop-app-icon {

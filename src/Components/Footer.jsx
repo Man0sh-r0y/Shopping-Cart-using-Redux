@@ -1,12 +1,14 @@
 import {AiOutlinePhone, AiOutlineMail, AiFillTwitterCircle, AiFillInstagram} from "react-icons/ai";
 import {CiLocationOn} from "react-icons/ci";
 import {SiFacebook, SiLinkedin} from "react-icons/si";
+import logo from "../assets/logo.png"
 
 function Footer(){
     return (
         <div className="footer">
             <div className="footer-box company">
-                <p>SkyShop</p>
+                {/* <p>SkyShop</p> */}
+                <img src={logo} className="h-12" />
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 

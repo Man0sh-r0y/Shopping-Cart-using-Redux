@@ -1,8 +1,8 @@
-import { AiFillShopping } from "react-icons/ai"
 import {FaShoppingCart} from "react-icons/fa";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-// import logo from "../assets/logo.png"
+import logo from "../assets/logo.png"
+// import { AiFillShopping } from "react-icons/ai"
 
 function Navbar() {
 
@@ -15,9 +15,9 @@ function Navbar() {
 
                 <NavLink to="/">
                     <div className="shop-app-icon ml-5">
-                        {/* <img src={logo} className="h-12" /> */}
-                        <AiFillShopping fontSize={50} color="white" />
-                        <p className="shop-app-name">SkyShop</p>
+                        <img src={logo} className="h-12" />
+                        {/* <AiFillShopping fontSize={50} color="white" />
+                        <p className="shop-app-name">SkyShop</p> */}
                     </div>
                 </NavLink>
 
